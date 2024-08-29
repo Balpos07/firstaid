@@ -22,3 +22,22 @@ function showSlides() {
 
 // Automatic Slide Change every 3 seconds
 setInterval(showSlides, 3000); // 3000 milliseconds = 3 seconds
+
+// Scroll-Up Button Functionality
+const scrollUp = document.getElementById("scrollUp");
+
+window.onscroll = function () {
+  if (window.scrollY > 200) {
+    scrollUp.classList.add("show");
+  } else {
+    scrollUp.classList.remove("show");
+  }
+};
+
+scrollUp.addEventListener("click", function (e) {
+  e.preventDefault();
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+});

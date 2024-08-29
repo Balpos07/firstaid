@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 /* Resetting default margin and padding */
 * {
   margin: 0;
@@ -106,7 +108,7 @@
 
 /* Additional Styles */
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 /* Info Section Styles */
@@ -350,4 +352,34 @@ body {
   .footer-contact {
     flex-direction: row;
   }
+}
+
+/* Scroll-Up Button Styles */
+.scroll-up {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 50%;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+
+.scroll-up i {
+  font-size: 20px;
+}
+
+.scroll-up.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Hover effect */
+.scroll-up:hover {
+  background-color: #0056b3;
 }

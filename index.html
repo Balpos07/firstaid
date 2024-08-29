@@ -7,18 +7,19 @@
     <title>Landing Page</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 
 </head>
 
 <body>
     <!-- Navigation Bar -->
     <nav class="navbar">
-        <div class="logo">MyLogo</div>
+        <div class="logo">firstAids@Schools</div>
         <ul class="nav-links">
             <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#guides">Guides</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
         <div class="hamburger">
             <div class="line"></div>
@@ -41,7 +42,7 @@
 
 
     <!-- Info Section -->
-    <section class="info-section">
+    <section class="info-section" id="guides">
         <div class="info">
             <img src="./images/3-removebg-preview.png" alt="Info Image 1">
             <div class="info-text">
@@ -131,7 +132,7 @@
 
 
     <!-- Contact Section -->
-    <section class="contact-section">
+    <section class="contact-section" id="contact">
         <h2>Contact Us</h2>
         <p>We would love to hear from you!</p>
         <div class="contact-info">
@@ -177,6 +178,11 @@
 
 
     <script src="scripts.js"></script>
+    <!-- Scroll-Up Button -->
+    <a href="#" class="scroll-up" id="scrollUp">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
 </body>
 
 </html>
