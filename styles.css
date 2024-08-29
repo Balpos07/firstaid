@@ -18,7 +18,7 @@
 }
 
 .logo {
-  font-size: 30px;
+  font-size: 24px;
   font-weight: bold;
   font-style: italic;
 }
@@ -125,6 +125,22 @@
   transform: translate(-50%, -50%);
   padding: 20px;
   border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .text,
+  .text2 {
+    font-size: 40px;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .text,
+  .text2 {
+    font-size: 30px;
+    padding: 10px;
+  }
 }
 
 /* Additional Styles */
