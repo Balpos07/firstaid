@@ -1,4 +1,3 @@
-// Toggle Mobile Navbar
 const hamburger = document.querySelector(".hamburger");
 const navLinks = document.querySelector(".nav-links");
 
@@ -6,7 +5,6 @@ hamburger.addEventListener("click", () => {
   navLinks.classList.toggle("active");
 });
 
-// Image Slider Functionality
 let slideIndex = 0;
 
 function showSlides() {
@@ -20,10 +18,8 @@ function showSlides() {
   }%)`;
 }
 
-// Automatic Slide Change every 3 seconds
-setInterval(showSlides, 3000); // 3000 milliseconds = 3 seconds
+setInterval(showSlides, 3000);
 
-// Scroll-Up Button Functionality
 const scrollUp = document.getElementById("scrollUp");
 
 window.onscroll = function () {

@@ -103,7 +103,21 @@
 .slide img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Ensures the entire image fits inside the slider */
+  object-fit: cover;
+}
+
+.text {
+  color: white;
+  background-color: black;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border-radius: 10px;
 }
 
 /* Additional Styles */
@@ -123,22 +137,22 @@ body {
 .info {
   display: flex;
   align-items: center;
-  justify-content: space-between; /* Ensure space between image and text */
+  justify-content: space-between;
   margin: 20px 0;
   width: 100%;
   max-width: 1200px;
 }
 
 .info img {
-  width: 48%; /* Adjust size to share width equally with text */
-  height: auto;
+  width: 38%;
+  height: 38%;
   object-fit: cover;
   border-radius: 8px;
 }
 
 .info-text {
-  width: 48%; /* Adjust size to share width equally with the image */
-  text-align: left; /* Align text to the left */
+  width: 48%;
+  text-align: left;
 }
 
 .info-text h3 {
@@ -315,12 +329,7 @@ body {
 .partner-logos img {
   width: 30px;
   height: auto;
-  filter: grayscale(100%);
   transition: filter 0.3s ease;
-}
-
-.partner-logos img:hover {
-  filter: grayscale(0%);
 }
 
 .footer-contact {
