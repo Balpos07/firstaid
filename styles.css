@@ -20,6 +20,11 @@
 .logo {
   font-size: 30px;
   font-weight: bold;
+  font-style: italic;
+}
+
+.logo span {
+  color: red;
 }
 
 .nav-links {
@@ -309,7 +314,7 @@ body {
 .contact-item i {
   font-size: 24px;
   margin-right: 10px;
-  color: #007bff;
+  color: #000;
 }
 
 .contact-item span {
@@ -368,13 +373,13 @@ body {
 }
 
 .footer-contact i {
-  color: #007bff;
+  color: #000;
 }
 
 .footer-copyright {
   font-size: 14px;
   color: #bbb;
-  margin-top: 20px;
+  margin-top: 60px;
 }
 
 @media (min-width: 768px) {
