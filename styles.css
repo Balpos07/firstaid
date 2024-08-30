@@ -39,7 +39,7 @@
 .nav-links a {
   text-decoration: none;
   color: #fff;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .hamburger {
@@ -196,7 +196,7 @@ body {
 }
 
 .info-text p {
-  font-size: 16px;
+  font-size: 14px;
   color: #555;
 }
 
@@ -233,7 +233,7 @@ body {
 }
 
 .video-section h2 {
-  font-size: 32px;
+  font-size: 24px;
   margin-bottom: 40px;
   color: #333;
 }
@@ -267,7 +267,7 @@ body {
 .youtube-link {
   display: block;
   margin-top: 10px;
-  font-size: 18px;
+  font-size: 14px;
   color: #007bff;
   text-decoration: none;
   font-weight: bold;
@@ -287,7 +287,7 @@ body {
   background-color: rgba(0, 0, 0, 0.6);
   color: #fff;
   padding: 10px;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: bold;
   z-index: 10;
   width: 90%;
@@ -310,13 +310,13 @@ body {
 }
 
 .contact-section h2 {
-  font-size: 32px;
+  font-size: 24px;
   color: #333;
   margin-bottom: 10px;
 }
 
 .contact-section p {
-  font-size: 18px;
+  font-size: 14px;
   color: #666;
   margin-bottom: 40px;
 }
@@ -329,7 +329,7 @@ body {
 }
 
 .contact-item {
-  font-size: 20px;
+  font-size: 14px;
   display: flex;
   align-items: center;
   color: #333;
@@ -340,13 +340,13 @@ body {
 }
 
 .contact-item i {
-  font-size: 24px;
+  font-size: 14px;
   margin-right: 10px;
   color: #000;
 }
 
 .contact-item span {
-  font-size: 18px;
+  font-size: 14px;
   color: #555;
 }
 
@@ -367,7 +367,7 @@ body {
 }
 
 .collaboration h3 {
-  font-size: 24px;
+  font-size: 14px;
   margin-bottom: 20px;
   color: #fff;
 }
@@ -394,7 +394,7 @@ body {
 }
 
 .footer-contact span {
-  font-size: 16px;
+  font-size: 14px;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -405,7 +405,7 @@ body {
 }
 
 .footer-copyright {
-  font-size: 14px;
+  font-size: 12px;
   color: #bbb;
   margin-top: 60px;
 }
@@ -433,7 +433,7 @@ body {
 }
 
 .scroll-up i {
-  font-size: 20px;
+  font-size: 14px;
 }
 
 .scroll-up.show {
