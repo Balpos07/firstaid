@@ -115,78 +115,56 @@
     </section>
 
 
-    <!-- Video Section -->
-    <!-- <section class="video-section">
-        <h2>Watch Our Online Videos</h2>
-        <div class="video-grid">
-            <div class="video-container">
-                <iframe class="video-player" src="https://www.youtube.com/embed/your-video-id-1"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
-                <p>Want to watch it on YouTube? <a href="https://www.youtube.com/watch?v=your-video-id-1"
-                        target="_blank" class="youtube-link">Click here</a></p>
-            </div>
-
-
-            <div class="video-container">
-                <iframe class="video-player" src="https://www.youtube.com/embed/your-video-id-2"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
-                <p>Want to watch it on YouTube? <a href="https://www.youtube.com/watch?v=your-video-id-2"
-                        target="_blank" class="youtube-link">Click here</a></p>
-            </div>
-
-      
-            <div class="video-container">
-                <iframe class="video-player" src="https://www.youtube.com/embed/your-video-id-3"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
-                <p>Want to watch it on YouTube? <a href="https://www.youtube.com/watch?v=your-video-id-3"
-                        target="_blank" class="youtube-link">Click here</a></p>
-            </div>
-        </div>
-    </section> -->
-
     <section class="video-section">
         <h2>Watch Our Online Videos</h2>
         <div class="video-grid">
             <!-- Video 1 -->
             <div class="video-container">
-                <h3 class="video-title">Cardio for Infants</h3> <!-- Title for Video 1 -->
-                <iframe class="video-player" src="https://www.youtube.com/embed/your-video-id-1"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
-                <p>Want to watch it on YouTube? <a href="https://www.youtube.com/watch?v=your-video-id-1"
-                        target="_blank" class="youtube-link">Click here</a></p>
+                <a href="https://www.youtube.com/watch?v=your-video-id-1" target="_blank" class="video-thumbnail">
+                    <img src="./images/choke.jpeg" alt="Video 1 Thumbnail">
+                    <span class="video-duration">00:00</span>
+                </a>
+                <div class="video-info">
+                    <h3>Cardiopulmonary Resuscitation for Infants</h3>
+                    <!-- <p>231K views • 5 months ago</p> -->
+                </div>
             </div>
 
             <!-- Video 2 -->
             <div class="video-container">
-                <h3 class="video-title">Cardio for Adults</h3> <!-- Title for Video 2 -->
-                <iframe class="video-player" src="https://www.youtube.com/embed/your-video-id-2"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
-                <p>Want to watch it on YouTube? <a href="https://www.youtube.com/watch?v=your-video-id-2"
-                        target="_blank" class="youtube-link">Click here</a></p>
+                <a href="https://www.youtube.com/watch?v=your-video-id-2" target="_blank" class="video-thumbnail">
+                    <img src="./images/choke.jpeg" alt="Video 2 Thumbnail">
+                    <span class="video-duration">00:00</span>
+                </a>
+                <div class="video-info">
+                    <h3>Cardiopulmonary for Adults</h3>
+                    <!-- <p>155K views • 9 hours ago</p> -->
+                </div>
             </div>
 
             <!-- Video 3 -->
             <div class="video-container">
-                <h3 class="video-title">First Aid for Choking</h3> <!-- Title for Video 3 -->
-                <iframe class="video-player" src="https://www.youtube.com/embed/your-video-id-3"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
-                <p>Want to watch it on YouTube? <a href="https://www.youtube.com/watch?v=your-video-id-3"
-                        target="_blank" class="youtube-link">Click here</a></p>
+                <a href="https://www.youtube.com/watch?v=your-video-id-3" target="_blank" class="video-thumbnail">
+                    <img src="./images/choke.jpeg" alt="Video 3 Thumbnail">
+                    <span class="video-duration">00:00</span>
+                </a>
+                <div class="video-info">
+                    <h3>FirstAid for Choking in Adults and Children</h3>
+                    <!-- <p>8.7K views • 21 hours ago</p> -->
+                </div>
             </div>
         </div>
     </section>
+
+    <!-- Modal for Playing Video -->
+    <div id="videoModal" class="modal">
+        <span class="close">&times;</span>
+        <div class="modal-content">
+            <iframe id="modalVideo" src="" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+
 
 
 
@@ -237,6 +215,7 @@
 
 
     <script src="scripts.js"></script>
+    <script src="video-script.js"></script>
     <!-- Scroll-Up Button -->
     <a href="#" class="scroll-up" id="scrollUp">
         <i class="fas fa-chevron-up"></i>
